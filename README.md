@@ -24,3 +24,18 @@ they will be mentioned in the header of the codes.
 The projects were made in C++ and C, primarily using Dev C++ and CodeBlocks, so you will need a similar platform to run them.
 
 ________
+
+###### Instruções / Instructions
+### GCC
+```
+gcc Archive.type -o ArchiveName 
+\.ArchiveName
+```
+
+com / with <math.h>:
+``` 
+gcc Archive.type -lm -o ArchiveName
+\.ArchiveName
+```
+
+________
