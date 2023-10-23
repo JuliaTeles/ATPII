@@ -11,6 +11,7 @@ os mesmos serão citados no cabeçalho dos códigos.
 
 ### Requisitos
 Os projetos foram feitos em C++ e C, primordialmente utilizando o Dev C++ e o CodeBlocks, assim você precisará de uma plataforma similar para roda-los. 
+ - .pgm: projetos que manipulam imagens .pgm precisam de um aplicativo para abrir as imagens caso esteja usando um S.O. Windowns, no Linux elas abrem normalmente.
 ________
 
 ###### English | ENG
@@ -22,20 +23,19 @@ they will be mentioned in the header of the codes.
 
 ### Requirements
 The projects were made in C++ and C, primarily using Dev C++ and CodeBlocks, so you will need a similar platform to run them.
-
 ________
 
 ###### Instruções / Instructions
 ### GCC
 ```
 gcc Archive.type -o ArchiveName 
-\.ArchiveName
+/.ArchiveName
 ```
 
 com / with <math.h>:
 ``` 
 gcc Archive.type -lm -o ArchiveName
-\.ArchiveName
+/.ArchiveName
 ```
 
 ________
